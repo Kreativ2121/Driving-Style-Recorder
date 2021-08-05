@@ -1,0 +1,97 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\Projekt_Arduino_DSR.ino.cpp",
+    "Include": "Canbus.h",
+    "Includepath": "C:\\Users\\Domin\\Documents\\Arduino\\libraries\\SparkFun_CAN-Bus_Arduino_Library-master\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\Projekt_Arduino_DSR.ino.cpp",
+    "Include": "SD.h",
+    "Includepath": "E:\\Arduino\\libraries\\SD\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\Projekt_Arduino_DSR.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\Projekt_Arduino_DSR.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\Projekt_Arduino_DSR.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\src\\L76X\\DEV_Config.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\src\\L76X\\L76X.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\Domin\\Pulpit\\Praca_Inzynierska\\Projekt_Arduino_DSR\\build\\sketch\\src\\TinyGPSPlus\\TinyGPS++.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Domin\\Documents\\Arduino\\libraries\\SparkFun_CAN-Bus_Arduino_Library-master\\src\\Canbus.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Domin\\Documents\\Arduino\\libraries\\SparkFun_CAN-Bus_Arduino_Library-master\\src\\mcp2515.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\SD\\src\\File.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\SD\\src\\SD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\SD\\src\\utility\\SdFile.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

@@ -1,0 +1,8 @@
+{
+    "port": "COM3",
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "sketch": "Projekt_Arduino_DSR.ino",
+    "programmer": "arduino:usbasp",
+    "output": "build"
+}
