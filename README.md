@@ -6,4 +6,4 @@ Driving Style Recorded (or DSR, for short) is an Arduino UNO Rev.3 and Nucleo-F3
 
 ## Data visualisation
 Data visualisation app is available at: http://www.cd44289.zut.edu.pl/.
-This website is available only on the West Pomeranian University of Technology Intranet. You will need VPN connection to access this website.
+This website is available only through the Intranet of the West Pomeranian University of Technology. You will need VPN connection to access this website.
