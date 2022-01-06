@@ -1,0 +1,94 @@
+html, body {
+    height: auto;
+    background-color:#CFCFCF;
+}
+
+#container {
+    height: auto;
+    margin-bottom: -29px;
+}
+
+#panel_wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#main{
+    text-align: center;
+    margin-top: 20px; 
+}
+
+#user_text{
+    margin: 0 auto;
+    padding: 10px 5px;
+    width: 70%;
+    border: 1px solid #031D44;
+    outline: 5px solid #151E3F;
+    font-size: 13px;
+}
+
+#user_text:focus{
+    outline: 5px solid #485f80;
+}
+
+#map{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#buttons{
+    width: 25%;
+    margin: auto;
+}
+
+#get_location, #start{
+    width: 45%;
+    margin-top: 20px;
+    padding: 10px 13px;
+    font-size: 14px;
+    border: 1px solid #030027;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #151E3F;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+
+#get_location:hover, #get_location:focus, #start:hover, #start:focus
+{
+    outline: none;
+    background-color: #030027;
+    border: 1px solid #030027;
+}
+
+#footer {
+    clear: both;
+    margin-top: 2%;
+}
+
+#footer p {
+    text-align: center;
+    color: #888888;
+    margin-top: 5px;
+}
+
+
+.leaflet-control-container .leaflet-routing-container-hide {
+    display: none;
+}

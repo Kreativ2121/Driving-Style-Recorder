@@ -1,0 +1,6 @@
+{
+    "port": "COM4",
+    "configuration": "pnum=NUCLEO_F303RE,upload_method=MassStorage,xserial=generic,usb=none,xusb=FS,opt=osstd,dbg=none,rtlib=nano",
+    "board": "STMicroelectronics:stm32:Nucleo_64",
+    "sketch": "CommST\\CommST.ino"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DSR Viewer</title>
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <link rel="stylesheet" href="leaflet-1.7.1/routing/leaflet-routing-machine.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+    <script src="leaflet-1.7.1/routing/leaflet-routing-machine.js"></script>
+</head>
+<body>
+    <div id = "container">
+        <div id = "panel_wrapper">
+            <div id = "top">
+                    <img src="images/DriveControl_logo_nobg.png" alt="DriveControl Logo" width=40%>
+            </div>
+
+            <div id = "main">
+                <input type = "text" id = "user_text" placeholder = "Put the contents of DSR_data.txt here.">
+                <div id = "map"></div>
+                <div id = "buttons">
+                    <button type = "button" id = "get_location">Get current location</button>
+                    <button type = "button" id = "start">Parse Data</button>
+                 </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Dominik Ciesiołkiewicz &copy; 2021</p>
+        </div>
+    </div>
+
+    <!-- MOŻNA MODYFIKOWAĆ ALE ZOSTAWIĆ W TEJ LINIJCE!!! -->
+    <script src="map_app.js"></script>
+</body>
+</html>
