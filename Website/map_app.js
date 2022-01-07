@@ -75,8 +75,7 @@ function drawRoad(wpoints, roadColour) {
         waypoints: wpoints,
         routeWhileDragging: true,
         draggableWaypoints: false,
-        //fitSelectedRoutes: "smart",
-        //createMarker: function() { return null; },
+        //serviceUrl: 'http://192.168.0.129:5000/',
         createMarker: function(i, wp, nWps) {
             if (speed[counter] >= 70 || rpm[counter] >= 4500) {
               counter = counter + 1;
