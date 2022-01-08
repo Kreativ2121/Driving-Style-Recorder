@@ -119,20 +119,7 @@ char CanbusClass::ecu_req(unsigned char pid)
 
 	mcp2515_bit_modify(CANCTRL, (1<<REQOP2)|(1<<REQOP1)|(1<<REQOP0), 0);
 	
-	if (mcp2515_send_message(&message)) {
-	}
-				if (mcp2515_check_message()) 
-				{
-
-					if (mcp2515_get_message(&message)) 
-					{
-						switch(message.data[2])
-							{
-								break;
-						
-							}
-					}
-				}
+	mcp2515_send_message(&message);
 
 }
 
