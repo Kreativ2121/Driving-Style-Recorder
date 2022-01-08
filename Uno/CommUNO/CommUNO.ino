@@ -143,7 +143,7 @@ void setup()
 
   Serial.print(F("Initializing I2C bus as master.\n"));
   Wire.begin();
-  Wire.setTimeout(250);
+  //Wire.setTimeout(250); //setTimeout nie może być używany z biblioteką wire.
   Serial.print(F("I2C bus initialization complete.\n")); 
 
   pinMode(chipSelect, OUTPUT);
