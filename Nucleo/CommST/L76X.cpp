@@ -135,24 +135,6 @@ GNRMC L76X_Gat_GNRMC()
     DEV_Uart_ReceiveString(buff_t, BUFFSIZE);
     //Comment line below to disable output to serial.
     //Serial.print(buff_t);
-    //------------------------------------------
-    // open file
-    //File dataFile = SD.open("DSR_GPS.txt", FILE_WRITE);
-  
-    // if the file is available, write to it:
-    //if (dataFile)   {  
-      
-    //  dataFile.print(buff_t);
-    //  dataFile.close();   //close file
-    //  Serial.println("New GPS data added to DSR_GPS.txt.");
-    //}  
-    // if the file isn't open, pop up an error:
-    //else
-    //{
-    //  Serial.println("Error copying GPS data to DSRData.txt.");
-    //  DEV_Delay_ms(1000);
-    //} 
-    //-----------------------------------------------------
      
     add = 0; 
     while(add < BUFFSIZE){

@@ -12,7 +12,6 @@ String LatDmmToDd(double latitude)
   String latDec;
   int deg;
   float tempR;
-
   String temp1, temp2;
   float temp3, temp4;
   
@@ -115,8 +114,8 @@ void sendMessage()
   String Lat;
   String Lon;
   Status.reserve(1);
-  Lat.reserve(19);
-  Lon.reserve(20);
+  Lat.reserve(10);
+  Lon.reserve(11);
   Status = String(GPS1.Status);
   Lat = LatDmmToDd(GPS1.Lat);
   Lon = LonDmmToDd(GPS1.Lon);

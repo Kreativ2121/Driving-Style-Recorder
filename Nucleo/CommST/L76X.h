@@ -63,8 +63,6 @@ typedef struct {
 	double Lat;
     char Lon_area;
     char Lat_area;
-    unsigned short v; //Speed
-    unsigned short rpm; //Rounds per minute
     UBYTE Time_H;   //Time
     UBYTE Time_M;
     UBYTE Time_S;
